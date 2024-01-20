@@ -11,7 +11,7 @@ function App() {
   <div className="container-sm">
     <img src= {hwlogo} alt="hwlogo" width="10%" height={80} />
   </div>
-  <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav className="navbar navbar-expand-sm col-12 bg-dark navbar-dark">
     <div className="container-fluid">
       <ul className="navbar-nav">
         <li className="nav-item">
@@ -48,11 +48,11 @@ function App() {
             height="100%"
           />
         </div>
-        <p>
+        <p style={{ color: "black" }}>
           <i>The hotwheels logo made 1968.</i>
         </p>
-        <h3 className="mt-4">Some Links</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
+        <h3 className="mt-4" style={{ color: "black" }}>Some Links</h3>
+        <p style={{ color: "black" }}>Lorem ipsum dolor sit ame.</p>
         <ul className="nav nav-pills flex-column">
           <li className="nav-item">
             <a className="nav-link active" href="#">
@@ -78,7 +78,7 @@ function App() {
         <hr className="d-sm-none" />
       </div>
       <div className="col-sm-8">
-        <h2>Hotwheel series</h2>
+        <h2 style={{ color: "black" }}>Hotwheel series</h2>
         <div className="img-with-text">
           <img
             src={grandprixcars}
@@ -87,10 +87,10 @@ function App() {
             height={400}
           />
         </div>
-        <p>
+        <p style={{ color: "black" }}>
           <i>Hotwheel sets started in 1968.</i>
         </p>
-        <p>
+        <p style={{ color: "black" }}>
           Some Hotwheel series overtime were Grand Prix, Hot Birds, Hot Line,
           and Ultra Hots. The Grand Prix contained 8 cars and came out 1969.
           Both Ferrari 312p and Porsche 917 cars were added in 1970 to the
@@ -104,10 +104,17 @@ function App() {
     </div>
   </div>
 </>
-        <div className="mt-5 p-4 bg-dark text-white text-center">
-          <p className='small'>©️ 2024
-          HotWheelsInfo</p>
+        <div className="mt-5 p-4 col-sm-12 bg-dark text-white text-center">
+         <p className='small' style={{ color: "white" }}>
+         <i>HotWheelsInfo website is only to inform 
+          <br/>people about Hotwheels cars and is not used 
+          <br/>for selling any products related to Hotwheels. 
+          <br/>This website is made only to inform people.</i>
+        </p>
+         
         </div>
+        <p className='small' style={{ color: "black" }}>©️ 2024
+          HotWheelsInfo </p>
         
         
       </header>
