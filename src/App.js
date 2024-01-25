@@ -9,29 +9,24 @@ function App() {
     <header className="App-header">
       <>
   <div className="container-sm">
-    <img src= {hwlogo} alt="hwlogo" width="10%" height={80} />
+    <img src= {hwlogo} alt="hwlogo" width="10%" height={100} />
   </div>
   <nav className="navbar navbar-expand-sm col-12 bg-dark navbar-dark">
     <div className="container-fluid">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" href="#">
-            Active
+          <a className="nav-link active" href="">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/collaborations">
+          Collaborations
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
-            Link
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" href="#">
-            Disabled
+            Collectors
           </a>
         </li>
       </ul>
@@ -44,40 +39,16 @@ function App() {
           <img
             src={hwlogo}
             alt="hotwheels logo"
-            width="100%"
+            width="250px"
             height="100%"
           />
         </div>
         <p style={{ color: "black" }}>
           <i>The hotwheels logo made 1968.</i>
         </p>
-        <h3 className="mt-4" style={{ color: "black" }}>Some Links</h3>
-        <p style={{ color: "black" }}>Lorem ipsum dolor sit ame.</p>
-        <ul className="nav nav-pills flex-column">
-          <li className="nav-item">
-            <a className="nav-link active" href="#">
-              Active
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Link
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Link
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link disabled" href="#">
-              Disabled
-            </a>
-          </li>
-        </ul>
         <hr className="d-sm-none" />
       </div>
-      <div className="col-sm-8">
+      <div className="col-sm-6">
         <h2 style={{ color: "black" }}>Hotwheel series</h2>
         <div className="img-with-text">
           <img
@@ -116,7 +87,7 @@ function App() {
         <p className='small' style={{ color: "black" }}>©️ 2024
           HotWheelsInfo </p>
         
-        
+         
       </header>
 
 
