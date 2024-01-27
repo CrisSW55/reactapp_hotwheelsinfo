@@ -1,14 +1,10 @@
 import _57T_Bird_hw_78 from './images/_57T_Bird_hw_78.png'
 import mcd_hw from './images/mcd_hw.png'
 import CamaroZ_28_white from './images/CamaroZ_28_white.png'
-import Layout from "./layout";
-
-
 
 export default function collaborations(){
     return(
     <>
-    <Layout></Layout>
    <div className="col-sm-4 mt-5">
    <h1>HotWheels Collaborations</h1>
   <p>

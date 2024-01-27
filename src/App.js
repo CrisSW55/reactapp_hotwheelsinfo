@@ -10,36 +10,12 @@
 //import manycars from './images/manycars.png'
 
 import './App.css';
-//Navigating through webpages using routes,router, and link React classes
-import { BrowserRouter, Routes, Route,useNavigate } from "react-router-dom";
-import Home from "./home";
-import Collectors from "./collectors";
-import Collaborations from './collaborations';
-import NoPage from "./nopage";
-
-
+import Header from './header';
 
 function App() {
-  // const navigate = useNavigate();
-
-  // const handleClick = () => {
-  //   // 👇️ navigate programmatically
-  //   navigate('/collaborations', {replace: true});};
   return (
-    
-  <>
-    <BrowserRouter>
-      <Routes>
-          <Route exact path="/" element={<Home />}>
-          <Route exact path="/collaborations" element={<Collaborations />} />
-          <Route exact path="/collectors" element={<Collectors />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </>
-  );
-  
-};
+    <Header/>
+    );
+  }
 export default App;
 

@@ -1,11 +1,10 @@
-import Layout from "./layout";
 import hwlogo from './images/hwlogo.png'
 import grandprixcars from './images/grandprixcars.png'
 import Copyright from './copyright';
 function Home() {
     return (
     <>
-   <Layout></Layout>
+    
     <div className="container mt-5">
       <div className="row">
         <div className="col-sm-4">
