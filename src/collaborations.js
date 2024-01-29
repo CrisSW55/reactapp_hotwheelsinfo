@@ -8,7 +8,7 @@ export default function collaborations(){
   
     <div className="col-sm-12 text-center">
       <h1 className='myheaderfont col-sm-6 mx-auto'>HotWheels Collaborations</h1>
-      <p className='col-sm-6 mx-auto'>
+      <p style={{ color: "white" }} className='col-sm-6 mx-auto'>
       Overtime, hotwheels has had many collaborations
 
       with different known companies and forms of pop culture.
@@ -35,7 +35,7 @@ export default function collaborations(){
     />
    
 
-  <p className='col-sm-6 mx-auto'>
+  <p style={{ color: "white" }} className='col-sm-6 mx-auto'>
     
     A type of food collaboration was the McDonald collaboration.
 
@@ -62,14 +62,14 @@ export default function collaborations(){
         src={CamaroZ_28_white}
         alt="Camaro Z-28 white" width="50%" height="200"
         />
-        <p>The Camaro Z-28 were of the model from 1978 to 1981.</p>
+        <p style={{ color: "white" }}>The Camaro Z-28 were of the model from 1978 to 1981.</p>
       </div>
       <div className="col-sm-6 text_center">
         <img 
           src={_57T_Bird_hw_78}
           alt="57 T-Bird(1978)" width="50%" height="200"
         />
-        <p>The '57 T-Bird came out 1978 and first placed in the Flying Colors series.</p>
+        <p style={{ color: "white" }}>The '57 T-Bird came out 1978 and first placed in the Flying Colors series.</p>
         
       </div>
 

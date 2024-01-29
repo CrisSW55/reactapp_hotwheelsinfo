@@ -16,7 +16,7 @@ function Home() {
               height="100%"
             />
           </div>
-          <p style={{ color: "black" }}>
+          <p style={{ color: "white" }}>
             <i>The hotwheels logo made 1968.</i>
           </p>
           <hr className="d-sm-none" />
@@ -31,10 +31,10 @@ function Home() {
               height={400}
             />
           </div>
-          <p style={{ color: "black" }}>
+          <p style={{ color: "white" }}>
             <i>Hotwheel sets started in 1968.</i>
           </p>
-          <p style={{ color: "black" }}>
+          <p style={{ color: "white" }}>
             Some Hotwheel series overtime were Grand Prix, Hot Birds, Hot Line,
             and Ultra Hots. The Grand Prix contained 8 cars and came out 1969.
             Both Ferrari 312p and Porsche 917 cars were added in 1970 to the

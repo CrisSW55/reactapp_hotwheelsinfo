@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(127deg,red 10%, orange 50%, yellow 90%);
+  background-image: linear-gradient(to left, #150e41 0%,#22176a 50%,#322299 80%);
 }
 
 code {
@@ -14,11 +14,13 @@ code {
 }
 
 .navbar{
-  background-image: linear-gradient(to left, #280900 0%,#561700 100%);
+  background-color: #1d1552;
+  /* background-image: linear-gradient(#000000); */
 }
 
 .websummary{
-  background-image: linear-gradient(to left, #280900 0%,#561700 100%);
+  background-color: #1d1552;
+  /* background-image: linear-gradient(#000000); */
 
 
 }
@@ -31,7 +33,7 @@ code {
 
 .myheaderfont{
   font-family: myheaderfont;
-  color: #e8c100df;
+  color: #ffd500df;
   font-size: 300%;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
