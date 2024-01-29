@@ -10,10 +10,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 // components takes precedence over default styles.
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-document.body.style.backgroundColor = "#019ADE";
+
+
+//document.body.style.backgroundImage = "linear-gradient(127deg,red 10%, orange 50%, yellow 90%);";
+
+//document.body.style.backgroundColor = "red"
+
 
 root.render(
-  <App/>
+  <App />
+  
+  
   );
 
 // If you want to start measuring performance in your app, pass a function

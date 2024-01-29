@@ -1,4 +1,4 @@
-import hwlogo from './images/hwlogo.png'
+import t_hwlogo from './images/t_hwlogo.png'
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 import Home from "./home";
 import Collectors from "./collectors";
@@ -10,13 +10,12 @@ export default function Header(){
   return (
     
     <BrowserRouter>
-    
-    <div className="container-sm">
-      <img src= {hwlogo} alt="hwlogo" width="10%" height={100} />
-    </div>
-    <nav className="navbar navbar-expand-sm col-12 bg-dark navbar-dark">
-      <div className="container-fluid">
-        <ul className="navbar-nav">
+    <nav className="navbar navbar-expand-sm col-12 navbar-dark">
+    <div className="container-fluid">
+        <Link class="nav-link col-2" to="/">
+          <img src= {t_hwlogo} alt="t_hwlogo" width="70%" height={100} />
+        </Link>
+        <ul className="navbar-nav col-10">
           <li className="nav-item">
           <Link class="nav-link" to="/">Home</Link>
           </li>
@@ -29,6 +28,12 @@ export default function Header(){
         </ul>
       </div>
     </nav>
+    
+    
+    
+
+    
+    
       <Routes>
         
           <Route path = "" element={<Home />} />

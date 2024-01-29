@@ -1,5 +1,5 @@
-import hwlogo from './images/hwlogo.png'
-import grandprixcars from './images/grandprixcars.png'
+import t_hwlogo from './images/t_hwlogo.png'
+import t_grandprixcars from './images/t_grandprixcars.png'
 import Copyright from './copyright';
 function Home() {
     return (
@@ -10,8 +10,8 @@ function Home() {
         <div className="col-sm-4">
           <div className="image-with-text">
             <img
-              src={hwlogo}
-              alt="hotwheels logo"
+              src={t_hwlogo}
+              alt="t_hwlogo"
               width="250px"
               height="100%"
             />
@@ -22,11 +22,11 @@ function Home() {
           <hr className="d-sm-none" />
         </div>
         <div className="col-sm-6">
-          <h2 style={{ color: "black" }}>Hotwheel series</h2>
+          <h2 className = "myheaderfont" >Hotwheel series</h2>
           <div className="img-with-text">
             <img
-              src={grandprixcars}
-              alt="grandprixcars"
+              src={t_grandprixcars}
+              alt="t_grandprixcars"
               width="100%"
               height={400}
             />
@@ -48,7 +48,7 @@ function Home() {
       </div>
     </div>
   
-          <div className="mt-5 p-4 col-sm-12 bg-dark text-white text-center">
+          <div className="websummary mt-5 p-4 col-sm-12 text-white text-center">
            <p className='small' style={{ color: "white" }}>
            <i>HotWheelsInfo website is only to inform 
             <br/>people about Hotwheels cars and is not used 

@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(127deg,red 10%, orange 50%, yellow 90%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  background-image: linear-gradient(to left, #280900 0%,#561700 100%);
+}
+
+.websummary{
+  background-image: linear-gradient(to left, #280900 0%,#561700 100%);
+
+
+}
+
+@font-face {
+  font-family: myheaderfont;
+  src: url(./fonts/BebasNeue-Regular.ttf);
+  
+}
+
+.myheaderfont{
+  font-family: myheaderfont;
+  color: #e8c100df;
+  font-size: 300%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  
+}
+
