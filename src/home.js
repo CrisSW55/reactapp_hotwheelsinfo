@@ -4,7 +4,6 @@ import Copyright from './copyright';
 function Home() {
     return (
     <>
-    
     <div className="container mt-5">
       <div className="row">
         <div className="col-sm-4">
@@ -57,20 +56,10 @@ function Home() {
           </p>
            
           </div>
-          <Copyright></Copyright>
-         
-          
-           
-            </>
-  
-  
-  
-  
-  
-  
-     
-          );
-  }
+      <Copyright></Copyright>
+  </>
+  );
+}
     
   
   

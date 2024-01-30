@@ -4,11 +4,12 @@ import Home from "./home";
 import Collectors from "./collectors";
 import Collaborations from './collaborations';
 import NoPage from "./nopage";
+import Website_background from './website_background';
 
 
 export default function Header(){
   return (
-    
+    <>
     <BrowserRouter>
     <nav className="navbar navbar-expand-sm col-12 navbar-dark">
     <div className="container-fluid">
@@ -28,13 +29,8 @@ export default function Header(){
         </ul>
       </div>
     </nav>
-    
-    
-    
 
-    
-    
-      <Routes>
+    <Routes>
         
           <Route path = "" element={<Home />} />
           <Route path="/collaborations" element={<Collaborations />} />
@@ -44,7 +40,7 @@ export default function Header(){
       
     </BrowserRouter>
      
-      
+     </>
     
   )
 };
