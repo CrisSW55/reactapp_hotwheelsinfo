@@ -1,4 +1,4 @@
-import t_hwlogo from '../images/t_hwlogo.png'
+import t_hwilogo from '../images/t_hwilogo.png'
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 import Home from "./home";
 import About from "./about";
@@ -14,7 +14,7 @@ export default function Header(){
     <nav className="navbar navbar-expand-sm col-12 navbar-dark">
     <div className="container-fluid">
         <Link class="nav-link col-2" to="/">
-          <img src= {t_hwlogo} alt="t_hwlogo" width="70%" height={100} />
+          <img src= {t_hwilogo} alt="t_hwilogo" width="70%" height={100} />
         </Link>
         <ul className="navbar-nav col-10">
           <li className="nav-item">
@@ -29,6 +29,24 @@ export default function Header(){
           <li className="nav-item">
           <Link class="nav-link" to="/collectors">Collectors</Link>
           </li>
+          <li className="nav-item">
+          <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle"
+          type="button" id="dropdownMenu1" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Dropdown
+          </button>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <Link class="nav-link" to="/">Home</Link>
+          <Link class="nav-link" to="/about">About</Link>
+          <Link class="nav-link" to="/collaborations">Collaborations</Link>
+          <Link class="nav-link" to="/collectors">Collectors</Link>
+          </div>
+          </div>
+          </li>
+          
+
         </ul>
       </div>
     </nav>

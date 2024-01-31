@@ -63,10 +63,11 @@ body {
   font-family: opensans_regular_font;
   font-size: 120%;
   color: #ffff;
+  
+}
 
-  /* color: #ffd500df;
-   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black; */
+.btn{
+  background: transparent !important;
   
 }
 
