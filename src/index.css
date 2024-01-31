@@ -17,33 +17,37 @@ body {
 } */
 
 .navbar{
-  /* background-image:linear-gradient(to right,#02000b 100%,); */
-  background-color: (#ffffff);
+  /* background-color:#100055; */
+  /* background-image: linear-gradient(to right, #150e41bc 0%,#22176ac0 50%,#322299c3 80%); */
+  background-color:#0e0a2ec0;
+ 
 }
 
 .circle_1{
   clip-path: circle(300px);
   opacity: .5;
-  /* fill:color(srgb rgb(0, 0, 0) green rgb(0, 0, 0)) ; */
- background-color: aqua;
+  background-color: aqua;
 }
 
 .websummary{
-  /* background-color: #1d1552; */
-  background-color: linear-gradient(#ffffff);
-  /* background-image: linear-gradient(#000000); */
+  /* background-color:#090032c7; */
+  background-image: linear-gradient(to right, #180f4cc3 0%,#0e0a2ec0 50%,#180f4cc3 80%);
+
 
 
 }
 
 @font-face {
-  font-family: myheaderfont;
+  font-family: bebasneue_font;
   src: url(./fonts/BebasNeue-Regular.ttf);
+
+  font-family: opensans_font;
+  src: url(./fonts/OpenSans/OpenSans-Regular.ttf);
   
 }
 
-.myheaderfont{
-  font-family: myheaderfont;
+.header_font{
+  font-family: opensans_font;
   color: #ffd500df;
   font-size: 300%;
   -webkit-text-stroke-width: 1px;

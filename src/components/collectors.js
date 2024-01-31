@@ -1,6 +1,6 @@
 export default function Collectors(){
   return (
-  <h1 className="myheaderfont">Collectors</h1>
+  <h1 className="header_font">Collectors</h1>
   )
 }
   

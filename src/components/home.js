@@ -16,12 +16,12 @@ function Home() {
             />
           </div>
           <p style={{ color: "white" }}>
-            <i>The hotwheels logo made 1968.</i>
+            <i>The Hot Wheels logo made 1968.</i>
           </p>
           <hr className="d-sm-none" />
         </div>
         <div className="col-sm-6">
-          <h2 className = "myheaderfont" >Hotwheel series</h2>
+          <h2 className = "header_font" >Hot Wheels series</h2>
           <div className="img-with-text">
             <img
               src={t_grandprixcars}
@@ -31,10 +31,10 @@ function Home() {
             />
           </div>
           <p style={{ color: "white" }}>
-            <i>Hotwheel sets started in 1968.</i>
+            <i>Hot Wheels sets started in 1968.</i>
           </p>
           <p style={{ color: "white" }}>
-            Some Hotwheel series overtime were Grand Prix, Hot Birds, Hot Line,
+            Some Hot Wheels series overtime were Grand Prix, Hot Birds, Hot Line,
             and Ultra Hots. The Grand Prix contained 8 cars and came out 1969.
             Both Ferrari 312p and Porsche 917 cars were added in 1970 to the
             series. The Ford J-Car was added over from 1968 to this series. Grand
@@ -49,9 +49,9 @@ function Home() {
   
           <div className="websummary mt-5 p-4 col-sm-12 text-white text-center">
            <p className='small' style={{ color: "white" }}>
-           <i>HotWheelsInfo website is only to inform 
-            <br/>people about Hotwheels cars and is not used 
-            <br/>for selling any products related to Hotwheels. 
+           <i>Hotwheelsinfo website is only to inform 
+            <br/>people about Hot Wheels cars and is not used 
+            <br/>for selling any products related to Hot Wheels. 
             <br/>This website is made only to inform people.</i>
           </p>
            

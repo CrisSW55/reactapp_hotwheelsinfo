@@ -7,7 +7,7 @@ export default function collaborations(){
     <>
   
     <div className="col-sm-12 text-center">
-      <h1 className='myheaderfont col-sm-6 mx-auto'>HotWheels Collaborations</h1>
+      <h1 className='header_font col-sm-6 mx-auto'>HotWheels Collaborations</h1>
       <p style={{ color: "white" }} className='col-sm-6 mx-auto'>
       Overtime, hotwheels has had many collaborations
 
@@ -27,7 +27,7 @@ export default function collaborations(){
    
 
    <div className="col-sm-12 text-center" >
-  <h3 className='myheaderfont col-sm-6 mx-auto'>Collaborating with McDonalds</h3>
+  <h3 className='header_font col-sm-6 mx-auto'>Collaborating with McDonalds</h3>
   <img 
       src={mcd_hw}
       alt="McDonalds and HotWheels"
