@@ -1,10 +1,9 @@
-import t_hwlogo from './images/t_hwlogo.png'
+import t_hwlogo from '../images/t_hwlogo.png'
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 import Home from "./home";
 import Collectors from "./collectors";
 import Collaborations from './collaborations';
 import NoPage from "./nopage";
-import Website_background from './website_background';
 
 
 export default function Header(){

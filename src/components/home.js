@@ -1,5 +1,5 @@
-import t_hwlogo from './images/t_hwlogo.png'
-import t_grandprixcars from './images/t_grandprixcars.png'
+import t_hwlogo from '../images/t_hwlogo.png'
+import t_grandprixcars from '../images/t_grandprixcars.png'
 import Copyright from './copyright';
 function Home() {
     return (

@@ -10,16 +10,12 @@
 //import manycars from './images/manycars.png'
 
 import './App.css';
-import Header from './header';
-import Website_background from './website_background';
+import Header from './components/header';
+
 
 function App() {
   return (
-    <>
-      <Header />
-
-     
-    </>
+    <><Header /></>
      
   
      

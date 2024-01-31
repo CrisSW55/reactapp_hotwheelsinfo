@@ -9,27 +9,16 @@ body {
                     url('images/shape-01.svg'),
                     url('images/shape-02.svg'),
                     linear-gradient(to left, #150e41 0%,#22176a 50%,#322299 80%);
-  /* <path
-    fill="none"
-    stroke="red"
-    d="M 10,30
-       A 20,20 0,0,1 50,30
-       A 20,20 0,0,1 90,30
-       Q 90,60 50,90
-       Q 10,60 10,30 z
-       " />
-
-       <circle cy="100" cx="200" r="30" style="fill:green;" /> */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 .navbar{
-  background-color: #1d1552;
-  /* background-image: linear-gradient(#000000); */
+  /* background-image:linear-gradient(to right,#02000b 100%,); */
+  background-color: (#ffffff);
 }
 
 .circle_1{
@@ -38,18 +27,10 @@ code {
   /* fill:color(srgb rgb(0, 0, 0) green rgb(0, 0, 0)) ; */
  background-color: aqua;
 }
-.website_background{
-  
-
-  /* clip-path: circle(400px); */
-  background-color: aqua;
-
-
-
-}
 
 .websummary{
-  background-color: #1d1552;
+  /* background-color: #1d1552; */
+  background-color: linear-gradient(#ffffff);
   /* background-image: linear-gradient(#000000); */
 
 
