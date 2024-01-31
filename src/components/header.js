@@ -1,6 +1,7 @@
 import t_hwlogo from '../images/t_hwlogo.png'
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 import Home from "./home";
+import About from "./about";
 import Collectors from "./collectors";
 import Collaborations from './collaborations';
 import NoPage from "./nopage";
@@ -20,6 +21,9 @@ export default function Header(){
           <Link class="nav-link" to="/">Home</Link>
           </li>
           <li className="nav-item">
+          <Link class="nav-link" to="/about">About</Link>
+          </li>
+          <li className="nav-item">
           <Link class="nav-link" to="/collaborations">Collaborations</Link>
           </li>
           <li className="nav-item">
@@ -30,8 +34,8 @@ export default function Header(){
     </nav>
 
     <Routes>
-        
           <Route path = "" element={<Home />} />
+          <Route path = "/about" element={<About />} />
           <Route path="/collaborations" element={<Collaborations />} />
           <Route path="/collectors" element={<Collectors />} />
           <Route path="*" element={<NoPage />} />

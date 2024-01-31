@@ -49,7 +49,7 @@ function Home() {
   
           <div className="websummary mt-5 p-4 col-sm-12 text-white text-center">
            <p className='small' style={{ color: "white" }}>
-           <i>Hotwheelsinfo website is only to inform 
+           <i>Hot Wheels info website is only to inform 
             <br/>people about Hot Wheels cars and is not used 
             <br/>for selling any products related to Hot Wheels. 
             <br/>This website is made only to inform people.</i>

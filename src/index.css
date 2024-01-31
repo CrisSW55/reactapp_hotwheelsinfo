@@ -41,17 +41,32 @@ body {
   font-family: bebasneue_font;
   src: url(./fonts/BebasNeue-Regular.ttf);
 
-  font-family: opensans_font;
+  font-family: opensans_regular_font;
   src: url(./fonts/OpenSans/OpenSans-Regular.ttf);
+
+  font-family: opensans_condensed_light_font;
+  src: url(./fonts/OpenSans/OpenSans_Condensed-Light.ttf);
+  
   
 }
 
 .header_font{
-  font-family: opensans_font;
-  color: #ffd500df;
-  font-size: 300%;
-  -webkit-text-stroke-width: 1px;
+  font-family: opensans_regular_font;
+  color: #ffd500;
+  font-size: 280%;
+  -webkit-text-stroke-width: .3px;
   -webkit-text-stroke-color: black;
+  
+}
+
+.paragraph_font{
+  font-family: opensans_regular_font;
+  font-size: 120%;
+  color: #ffff;
+
+  /* color: #ffd500df;
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; */
   
 }
 
