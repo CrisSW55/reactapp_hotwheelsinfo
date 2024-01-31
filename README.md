@@ -12,4 +12,6 @@
 # Startup - Free Next.js Startup Website Template
 # [🚀 View Free Demo](https://startup.nextjstemplates.com/)
 
+# Added my custom website logo so i wont use Hot Wheels logo on my website icon and navigation bar 
+
   
